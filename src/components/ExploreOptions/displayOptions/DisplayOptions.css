@@ -1,0 +1,8 @@
+.links{
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin-right: 1rem;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.setWidthDrop{
+    width:50rem
+}
+
+.flagWidth{
+    height:28px;
+    width:28px;
+}
+
+.alignFlag{
+    display: inline-block;
+    padding-right: 20%;
+}

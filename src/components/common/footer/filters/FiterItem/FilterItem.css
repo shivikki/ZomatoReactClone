@@ -1,0 +1,9 @@
+.filterItem{
+    padding:10px 5px 10px 5px;
+    color:#b3b3b3;
+    border: 1px solid #b3b3b3;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+

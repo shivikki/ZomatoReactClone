@@ -1,0 +1,78 @@
+.header{
+    width:100%;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 2%;
+    margin-top: 1%;
+    
+}
+
+.zomLogo{
+    max-width: 12rem;
+    height: 2.5rem;
+    float: right;
+}
+
+.searchBox{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 4rem;
+    background: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+.locationInput{
+    border: none;
+    font-size: 1.4rem;
+    margin: 0px 1rem 0px 0.5rem;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+input :focus{
+    border: none !important;
+    outline: none !important;
+    font-size: 1.4rem;
+    margin: 0px 1rem 0px 0.5rem;
+   
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.dropIcon{
+    border-right:0.10rem solid rgb(207, 207, 207)
+}
+
+#locSpan{
+height: 100%;
+}
+
+
+.form-control ::placeholder{
+    color: rgb(207, 207, 207); 
+}
+
+.searchBox #locationInp {
+    width:100%
+}
+
+.logBtn :hover{
+    border:1px solid #f05e6d !important;
+    color: rgb(28, 28, 28);
+    border-bottom-color: #f05e6d;
+   font-size: larger;
+}
+.logBtn{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-align: right;
+    vertical-align: middle;
+    font-weight: 300;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+    border-radius: 0.6rem;
+    padding: 0.8rem !important;
+}

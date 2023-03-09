@@ -1,0 +1,55 @@
+.maxWidth {
+    max-width: 90%;
+    margin: 0px auto;
+}
+
+.form-control:focus,
+input:focus {
+    border-color: rgba(255, 255, 255, 0);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.transparentBg {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.absoluteCenter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+input::placeholder {
+    color: rgb(207, 207, 207);
+    opacity: 1;
+}
+
+.cursorPointer{
+    cursor: pointer;
+}
+
+.setTitle{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.slick-next::before, .slick-prev::before{
+    color:rgba(255, 255, 255, 0);
+    z-index: 100;
+}
+
+.floatRight{
+    float: right;
+}
+
+.floatLeft{
+    float:left
+}
+
+.hideBorder{
+    border: 1px solid rgba(255,255,255,0);
+}

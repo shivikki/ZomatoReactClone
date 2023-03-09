@@ -1,0 +1,44 @@
+.setBg{
+    background-color: #f8f8f8;
+}
+.disFlex{
+    display:flex ;
+}
+
+.alignRight{
+    display: flex;
+    /* float: right; */
+    justify-content: flex-end;
+}
+
+.dd{
+    border: 1px solid black;
+    border-radius:5%;
+}
+
+.dropSelected{
+    font-size: 14px;
+    line-height: 2rem;
+    max-width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(28, 28, 28);
+    margin-left:20px;
+    font-weight: 400;
+}
+
+.flagStyle{
+    width: 200%;
+    height: 100%;
+}
+
+.ctryDrop{
+    height: 3rem;
+    width: 8rem;
+    font-size: 14px;
+    border:1px solid rgb(181, 181, 181);
+    display: flex;
+    justify-content: left;
+
+}
